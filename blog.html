@@ -54,37 +54,14 @@
     </div>
     <div class="pa-content-grid">
         <header id="pageHeader" class="pa-header">
-            <h1>Sudo Cyber Zeus</h1>
+            <h1>Blog</h1>
         </header>
         <article id="mainArticle" class="pa-article pa-imgok">
-            <img src="assets/img/cyberzeus.jpg" alt="">
-            <p>
-                A Full-Stack Web Developer condacting research on all things World Wide Web, both technical and fundermental. Presents to you, an environment of rich and practical <i>Simon Says</i> information to better understant and take advantage of all things World Wide Web.
-            </p>
-            <img src="assets/img/brand.jpg" alt="">
-            <ul>
-                <li>
-                    Quite agile, both in the way we conduct business, do research, and gather resources while serving with honor, advocacy, and the most attentive integrity and creativity.
-                </li>
-                <hr>
-                <li>
-                    Operating as the most credible and reliable client-oriented company on the Internet
-                </li>
-            </ul>
-            <p>
-                A virtual service-oriented IT company that provides a range of services that helps with establishing and fueling Web Presence. Has been successfully conducting business with small and medium-size companies, high profile clients, bands, and freelance developers and bloggers. Offers Web Hosting services, develops Web and Native Applications, and Digital Marketing Strategies.
-            </p>
+            <div id="paPost"></div>
         </article>
         <nav id="mainNav" class="pa-nav">
-            <h2>Fruit For Thought</h2>
-            <p>
-                A simple, old-school definition for marketing is that it is the creation of demand for your product or service. If all goes well, this demand should translate into sales and, ultimately, revenue.
-            </p>
-            <p>
-                Digital Marketing is an umbrella term for the marketing of products or services using digital technologies, mainly on the Internet, but also including mobile phones, display advertising, and any other digital medium.
-            </p>
-            <p>
-                The fact that digital marketing is highly empirical is one of its key strengths. Everything can be measured: from behaviors to actions and action paths to results. This means that digital marketing strategist should start thinking with return on investment (ROI) in mind. Built into any strategy should be a testing framework and the ability to remain flexible in a medium that shifts and changes as user behaviors do. If we define strategy as “a plan of action designed to achieve a particular outcome”, then the desired outcome from a digital marketing strategy point of view would be aligned with your Web Presence Goals. 
+            <p id="mainTopics">
+                
             </p>
         </nav>
         <div id="siteAds" class="pa-siteAds">
@@ -140,6 +117,14 @@
                 links.className = "pa-links";
             }
         }
+
+        const myImg1 = document.getElementById("myImg1");
+
+        var mainArticle = document.getElementById("mainArticle");
+
+        myImg1.addEventListener("load", function(){
+            mainArticle.className += " pa-imgok";
+        })
     </script>
     <script src="assets/js/webdev.js"></script>
 </body>

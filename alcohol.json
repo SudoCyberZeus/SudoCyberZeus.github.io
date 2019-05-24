@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Heineken",
+        "size":"660ml",
+        "kind":"Beer",
+        "price":"R22"
+    },
+    {
+        "name":"Hunters",
+        "size":"660ml",
+        "kind":"Cyder",
+        "price":"R22"
+    },
+    {
+        "name":"Amstel",
+        "size":"660ml",
+        "kind":"Beer",
+        "price":"R18"
+    },
+    {
+        "name":"Stout",
+        "size":"750ml",
+        "kind":"Beer",
+        "price":"R18"
+    }
+]
