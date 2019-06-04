@@ -3,8 +3,57 @@ body {
     padding: 0;
     margin: 0;
     background-color: black;
-    animation: fadeIn 5s;
+    animation: fadeIn 3s;
+    scroll-margin: 0.5rem;
 }
+
+/* Center the loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 6px solid rgba(225, 225, 225, 0.5);
+    border-radius: 50%;
+    border-top: 6px solid rgba(0, 0, 0, 0.5);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin .5s linear infinite;
+    animation: spin .5s linear infinite;
+}
+  
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s
+}
+  
+@-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+}
+  
+@keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+}
+  
+
 a {
     color: green;
     font-weight: 900;
@@ -177,6 +226,13 @@ a {
 }
 .pa-article .pa-template img{
     width: 44%;
+}
+.pa-contact-info {
+    padding: 1rem 0.5rem;
+    background-color: black;
+}
+.pa-contact-info h2 {
+    text-align: left;
 }
 #mainNav { 
     grid-area: nav;

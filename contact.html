@@ -6,23 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sudo Cyber Zeus</title>
 
-    <meta name="description" content="Online Profile: Banele Victor Mayisela" />
-    <meta name="keywords" content="Web Design & Development in South Africa, Web Developer at PA Cortex" />
     <meta name="author" content="Sudo Cyber Zeus" />
+    <meta name="description" content="Implementing the most effective and productive Web Presence." />
+    <meta name="keywords" content="Web Presence, Web Hosting, Web Design & Development, Digital Marketing, Web Technology, Banele Victor Mayisela." />
 
     <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content=""/>
-    <meta property="og:image" content=""/>
-    <meta property="og:url" content=""/>
-    <meta property="og:site_name" content=""/>
-    <meta property="og:description" content=""/>
+    <meta property="og:url"         content="https://sudocyberzeus.github.io/index.html" />
+    <meta property="og:type"        content="website" />
+    <meta property="og:title"       content="Sudo Cyber Zeus" />
+    <meta property="og:description" content="An information site sharing research on all things World Wide Web with an intention to inspire and educate on achieving the moth productive Web Presence" />
+    <meta property="og:image"       content="https://sudocyberzeus.github.io/assets/img/brand.jpg" />
 
     <link rel="shortcut icon" href="assets/img/cyberzeus.png">
 
     <link rel="stylesheet" href="assets/css/all.css"> 
     <link rel="stylesheet" href="assets/css/styles.css"> 
 </head>
-<body>
+<body onload="myFunction()">
+    <div id="loader"></div>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+        (document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="pa-banner">
         <div style="background:url(assets/img/banner.jpg)center; height: 100%;">
         </div>
@@ -52,12 +64,33 @@
             </div>
         </div>
     </div>
-    <div class="pa-content-grid">
+    <div class="pa-content-grid" id="paContent" style="display: none;">
         <header id="pageHeader" class="pa-header">
             <h1>Contact</h1>
         </header>
         <article id="mainArticle" class="pa-article pa-imgok">
-            
+            <div class="pa-contact">
+                <img src="assets/img/founder.jpg" alt="">
+                <div class="pa-contact-info">
+                    <h2>Banele Victor Mayisela</h2>
+                    <h3>Full-Stack Web Developer</h3>
+                    <h3>Founder of PA Cortex</h3>
+                    <h3><a href="tel:+27726099284">+27 72 609 9284</a></h3>
+                    <h3><a href="mailto:banele@pacortex.co.za">banele@pacortex.co.za</a></h3>
+                    <div 
+                        class="fb-share-button" 
+                        data-href="https://sudocyberzeus.github.io" 
+                        data-layout="box_count" 
+                        data-size="large">
+                        <a 
+                            target="_blank" 
+                            href="https://sudocyberzeus.github.io" 
+                            class="fb-xfbml-parse-ignore">
+                            Share
+                        </a>
+                    </div>
+                </div>
+            </div>
         </article>
         <nav id="mainNav" class="pa-nav">
             <p id="mainTopics">
@@ -90,19 +123,19 @@
                 <div>
                     <h3>Site Info</h3>
                     <p>
-                        Aims to aid PA Cortex clients manage their Web Presence better. It offers cpanel configurations instructions, basic Web Design & Development trends research, and Digital Marketing analysis and strategies.
+                        Aims to aid PA Cortex clients to manage their Web Presence better. It offers cpanel configurations instructions, basic Web Design & Development trends research, and Digital Marketing analysis and strategies.
                     </p>
                 </div>
                 <div>
                     <h3>Content Copyrigh</h3>
                     <p>
-                        Though most of the content is available to all visitors, some of the most critical content is only available to PA Cortex clients as intended. All posts are based on real life applications on organisational projects.
+                        Though most of the content is available to all visitors, some of the most critical content is only available to PA Cortex clients as intended. All posts are based on real-life applications on organizational projects.
                     </p>
                 </div>
                 <div>
                     <h3>Site Author</h3>
                     <p>
-                        Banele Victor Mayisela, the proud founder of PA Cortex, is an amazing Full-Stack Web Developer. Conducts regular research on Estalishing and mentaining a credible and influantial Web Presence. 
+                        Banele Victor Mayisela, the proud founder of PA Cortex, is an amazing Full-Stack Web Developer. Conducts regular research on Establishing and maintaining a credible and influential Web Presence. 
                     </p>
                 </div>
             </div>
@@ -117,15 +150,8 @@
                 links.className = "pa-links";
             }
         }
-
-        const myImg1 = document.getElementById("myImg1");
-
-        var mainArticle = document.getElementById("mainArticle");
-
-        myImg1.addEventListener("load", function(){
-            mainArticle.className += " pa-imgok";
-        })
     </script>
     <script src="assets/js/webdev.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
