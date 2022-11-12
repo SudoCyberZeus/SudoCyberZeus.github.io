@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: Restaurantly
-Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Sudo Cyber Zeus Portfolio Website for Banele Victor Mayisela
