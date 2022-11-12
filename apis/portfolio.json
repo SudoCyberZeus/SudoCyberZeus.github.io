@@ -2,7 +2,7 @@
     {
         "pId":"1",
         "pName":"Task Tracker",
-        "pImage":"http:https://sudocyberzeus.github.io/assets/img/projects/nice-galaxy.jpg",
+        "pImage":"https://sudocyberzeus.github.io/assets/img/projects/nice-galaxy.jpg",
         "pDescription":"Web App for tracking tasks and also tacking notes on a task's progress.",
         "pViews":"1",
         "pLink":"http:\/\/localhost:3000\/portfolio",
