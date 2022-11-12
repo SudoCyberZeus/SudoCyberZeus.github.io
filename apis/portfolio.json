@@ -2,7 +2,7 @@
     {
         "pId":"1",
         "pName":"Task Tracker",
-        "pImage":"http:\/\/localhost\/apis\/projects\/nice-galaxy.jpg",
+        "pImage":"http:https://sudocyberzeus.github.io/assets/img/projects/nice-galaxy.jpg",
         "pDescription":"Web App for tracking tasks and also tacking notes on a task's progress.",
         "pViews":"1",
         "pLink":"http:\/\/localhost:3000\/portfolio",
@@ -11,7 +11,7 @@
     {
         "pId":"2",
         "pName":"Attendance",
-        "pImage":"http:\/\/localhost\/apis\/projects\/sign-bg.jpg",
+        "pImage":"http:sudocyberzeus.github.io/assets/img/projects/sign-bg.jpg",
         "pDescription":"Web based App for marking attendance during a meeting or classrooms.",
         "pViews":"2",
         "pLink":"http:\/\/localhost:3000\/portfolio",
@@ -20,7 +20,7 @@
     {
         "pId":"3",
         "pName":"App Tester",
-        "pImage":"http:\/\/localhost\/apis\/projects\/main-bg.jpg",
+        "pImage":"http:sudocyberzeus.github.io/assets/img/projects/main-bg.jpg",
         "pDescription":"Just a Web App for testing my App LOL!",
         "pViews":"0",
         "pLink":"#",
