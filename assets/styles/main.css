@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    color: silver;
+    background-color: black;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+a:hover {
+    color: gold;
+}
+
+header {
+    top: 0;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+}
+.vic-brand {
+    float: left;
+    margin: 5px 10%;
+    font-size: 30px;
+    justify-self: flex-start;
+}
+.vic-brand span {
+    color: red;
+}
+.vic-menu {
+    float: right;
+    margin: 10px 10%;
+    font-size: 30px;
+    justify-self: flex-end;
+}
+
+main {
+    height: 100vh;
+    margin: 90px 12%;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 5px gold;
+    background:rgba(0, 0, 0, 0.9);
+}
+.vic-copyright {
+    padding: 10px;
+    text-align: center;
+}
+
+/*--- Responsive Design ---*/
+@media (max-width: 1680px) {
+    
+}
+@media (max-width: 1280px) {
+    
+}
+@media (max-width: 1024px) {
+    .vic-brand {
+        margin: 5px 5%;
+    }
+    .vic-menu {
+        margin: 10px 5%;
+    }
+    main {
+        margin: 90px 7%;
+    }
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 600px) {
+    
+}
+@media (max-width: 480px) {
+    .vic-brand {
+        font-size: 20px;
+    }
+    .vic-menu {
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    
+}
+
+@media (max-width: 280px) {
+    .vic-brand {
+        font-size: 15px;
+    }
+    .vic-menu {
+        font-size: 15px;
+    }
+}
